@@ -1,7 +1,10 @@
 {
-  "name": "mcp-server",
+  "name": "@iflow-mcp/mcp-server",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": {
+    "mcp-server": "./build/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",

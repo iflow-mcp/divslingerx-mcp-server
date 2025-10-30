@@ -161,5 +161,6 @@ export class MemoryStore {
   }
 }
 
-const server = new MemoryStore();
-server.run().catch(console.error);
+// Server instance is created and managed by index.ts
+// const server = new MemoryStore();
+// server.run().catch(console.error);
