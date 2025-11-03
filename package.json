@@ -1,6 +1,6 @@
 {
   "name": "@iflow-mcp/mcp-server",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "bin": {
     "mcp-server": "./build/index.js"
